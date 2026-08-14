@@ -25,7 +25,7 @@ import {
   Zap,
 } from "lucide-react";
 
-const CALENDAR_URL = import.meta.env.VITE_CALENDAR_URL || "";
+const CALENDAR_URL = import.meta.env.VITE_CALENDAR_URL || "https://calendly.com/summitvoiceai/revenue-audit";
 const MONTHLY_FEE = 1497;
 const IMPLEMENTATION_FEE = 3000;
 const FIRST_YEAR_INVESTMENT = MONTHLY_FEE * 12 + IMPLEMENTATION_FEE;
@@ -493,7 +493,7 @@ export default function Home() {
                       }}>
                         {calc.oneJobRatio.toFixed(1)}×
                       </strong>
-                      <small style={{ fontSize: '8px', color: '#7a97aa', display: 'block' }}>
+                      <small style={{ fontSize: '9px', color: '#7a97aa', display: 'block' }}>
                         illustrative -- not ROI
                       </small>
                     </div>
