@@ -25,7 +25,7 @@ import {
   Zap,
 } from "lucide-react";
 
-const CALENDAR_URL = import.meta.env.VITE_CALENDAR_URL || "https://calendly.com/summitvoiceai/revenue-audit";
+const CALENDAR_URL = import.meta.env.VITE_CALENDAR_URL || "https://calendly.com/aivoice/call";
 const MONTHLY_FEE = 1497;
 const IMPLEMENTATION_FEE = 3000;
 const FIRST_YEAR_INVESTMENT = MONTHLY_FEE * 12 + IMPLEMENTATION_FEE;
