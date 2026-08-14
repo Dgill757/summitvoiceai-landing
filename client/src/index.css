@@ -129,14 +129,15 @@ p { color: #aec0d1; font-size: 16px; line-height: 1.68; }
 .leak-chart::before { content: ""; position: absolute; inset: 0; background: radial-gradient(circle at 53% 23%, rgba(0,212,255,.16), transparent 36%); }
 .funnel-label { position: relative; color: #98b8ce; text-transform: uppercase; font-size: 10px; letter-spacing: .12em; z-index: 1; }
 .label-b { color: #72dff5; margin-top: 9px; }
-.funnel-shape { width: min(520px, 92%); height: 317px; margin: 28px auto 0; position: relative; clip-path: polygon(5% 0, 95% 0, 70% 81%, 63% 100%, 37% 100%, 30% 81%); background: linear-gradient(180deg, rgba(0,212,255,.21), rgba(20,70,103,.22) 65%, rgba(255,133,91,.16)); border: 1px solid rgba(0,212,255,.25); }
-.funnel-shape::after { content: ""; position: absolute; inset: 2px; clip-path: inherit; background: linear-gradient(180deg, rgba(6,22,38,.48), rgba(8,21,34,.94)); }
+.funnel-shape { width: min(520px, 92%); height: 317px; margin: 28px auto 0; position: relative; }
+.funnel-shape::before { content: ""; position: absolute; inset: 0; z-index: 0; clip-path: polygon(5% 0, 95% 0, 70% 81%, 63% 100%, 37% 100%, 30% 81%); background: linear-gradient(180deg, rgba(0,212,255,.21), rgba(20,70,103,.22) 65%, rgba(255,133,91,.16)); border: 1px solid rgba(0,212,255,.25); }
+.funnel-shape::after { content: ""; position: absolute; inset: 2px; z-index: 0; clip-path: polygon(5% 0, 95% 0, 70% 81%, 63% 100%, 37% 100%, 30% 81%); background: linear-gradient(180deg, rgba(6,22,38,.48), rgba(8,21,34,.94)); }
 .lead-stream { position: absolute; z-index: 2; top: 23px; left: 20%; right: 20%; display: flex; justify-content: space-between; }
 .lead-stream i { width: 9px; height: 9px; border-radius: 50%; background: #00d4ff; box-shadow: 0 0 14px #00d4ff; animation: blink 1.8s infinite alternate; }
 .lead-stream i:nth-child(2) { animation-delay: .25s; }.lead-stream i:nth-child(3) { animation-delay: .5s; }.lead-stream i:nth-child(4) { animation-delay: .75s; }.lead-stream i:nth-child(5) { animation-delay: 1s; }
 .funnel-core { position: absolute; z-index: 3; top: 45%; left: 50%; transform: translate(-50%,-50%); text-align: center; font-family: "Barlow Condensed", sans-serif; font-size: 26px; line-height: .85; font-weight: 700; letter-spacing: .03em; }
 .funnel-core em { font-size: 14px; letter-spacing: .14em; }
-.leak-point { position: absolute; z-index: 4; color: #ffb477; font-size: 9px; letter-spacing: .08em; font-weight: 700; }.leak-point b { color: #ff8657; font-size: 20px; display: block; text-align: center; }.leak-one { top: 20%; left: 3%; }.leak-two { top: 43%; right: 0; }.leak-three { top: 61%; left: 18%; }
+.leak-point { position: absolute; z-index: 4; color: #ffb477; font-size: 9px; letter-spacing: .08em; font-weight: 700; white-space: nowrap; }.leak-point b { color: #ff8657; font-size: 20px; display: block; text-align: center; }.leak-one { top: 20%; left: 3%; }.leak-two { top: 43%; right: 0; }.leak-three { top: 61%; left: 18%; }
 .lost-revenue { position: absolute; z-index: 4; bottom: 20px; left: 50%; transform: translateX(-50%); color: #ff9d71; font-family: "Barlow Condensed", sans-serif; text-align: center; font-size: 22px; line-height: .85; white-space: nowrap; }.lost-revenue small { display: block; color: #a9bac6; font-family: "DM Sans", sans-serif; font-size: 9px; margin-top: 8px; }
 .leak-aside { background: #0d1d2e; border-left: 1px solid rgba(0,212,255,.4); padding: 36px; display: flex; flex-direction: column; align-items: flex-start; }.aside-number { color: #00d4ff; font-family: "Barlow Condensed", sans-serif; font-size: 52px; line-height: 1; }.leak-aside h3 { margin-top: 44px; font-size: 38px; }.cta-compact { margin-top: auto; min-height: 48px; padding: 0 15px; font-size: 15px; }
 
