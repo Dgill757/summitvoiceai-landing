@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://revenuerecovery.summitvoiceai.com/sitemap.xml
+
+# AI assistant / LLM-facing summary (llms.txt convention)
+# https://llmstxt.org
+Allow: /llms.txt

@@ -1,0 +1,68 @@
+# Summit Revenue Recovery System
+
+> This page is the roofing-focused conversion offer for Summit Voice AI (summitvoiceai.com),
+> built and operated by Summit Marketing Group, founded by Dan Gill. It exists to get a
+> roofing company owner to book a free "Revenue Leak Audit." The core premise: before a
+> roofing company spends more money generating new leads, it should find out how many
+> opportunities it already paid for are leaking out through missed calls, slow follow-up,
+> cold estimates, and a dead CRM database.
+
+## Core message
+
+"Before you spend another dollar generating opportunities, let's make sure you're
+monetizing the ones you've already paid for."
+
+## The Revenue Recovery Loop
+
+Capture → Respond → Follow Up → Reactivate → Book → Review → Optimize. This 7-step loop is
+the mechanism the Summit Revenue Recovery System automates end-to-end using Ava (the AI
+voice receptionist), SMS/email nurture, a database reactivation program, and a review
+generation workflow — all wired into the client's existing CRM and calendar.
+
+## Who this is for
+
+Roofing contractors and roofing company owners in the United States who are already
+spending money to generate leads (ads, referrals, storm work) and want to know how much of
+that spend is being wasted through missed calls, slow response, no follow-up on estimates,
+and old CRM leads nobody is working. Summit Voice AI also serves home services, real
+estate, healthcare, legal, and other appointment-driven businesses — this specific page is
+built for roofing.
+
+## Offer and pricing
+
+The flagship offer is the Summit Revenue Recovery System™: $1,497/month + $3,000
+one-time implementation (annual prepay: $16,500 + implementation). Two adjacent tiers:
+SummitVoice AI Capture™ ($697/month + $1,500 implementation, entry-level) and Summit AI
+Growth Engine™ ($2,497/month + $5,000 implementation, enterprise/multi-location). Full
+tier details: https://revenuerecovery.summitvoiceai.com/#pricing
+
+## Documented results referenced on this page
+
+- Teo Roofing: 582 appointments booked in 12 months via Ava. At a 55% close rate averaging
+  $13,100/job, that is $4,190,400+ in recovered revenue.
+- A roofing database reactivation campaign of ~4,000 existing leads produced ~294
+  appointments and ~$200,000 in attributable reported revenue.
+- 42+ active roofing/home-service companies on the platform; $84M+ in client revenue
+  recovered annually across active clients; 100% call answer rate, under 1 second.
+
+All ROI figures shown in this page's calculator are hypothetical, illustrative estimates
+based on user-entered inputs — not guarantees of revenue, leads, or appointments.
+
+## Implementation guarantee
+
+If the client completes onboarding, provides required access, and meets agreed
+prerequisites, and Summit has not deployed the agreed infrastructure within 30 days, Summit
+continues implementation at no management fee until the system is live. If after 60 days
+Summit cannot point to measurable recovered conversations, appointments, opportunities, or
+documented follow-up improvements, Summit will personally review the account and build an
+additional recovery campaign at Summit's cost. This is a deployment guarantee, not a
+guarantee of leads, appointments, sales, or revenue.
+
+## Related
+
+- Main site: https://www.summitvoiceai.com
+- Main site AI-facing summary: https://www.summitvoiceai.com/llms.txt
+
+## Call to action
+
+"Book My Free Revenue Leak Audit" is the single conversion action on this page.
