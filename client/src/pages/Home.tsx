@@ -4,6 +4,7 @@
  */
 import { useMemo, useRef, useState } from "react";
 import { motion, useInView } from "framer-motion";
+import FunnelParticles from "@/components/FunnelParticles";
 import {
   ArrowDownRight,
   ArrowUpRight,
@@ -284,7 +285,7 @@ export default function Home() {
             <div className="funnel-label label-a">Paid traffic + referrals</div>
             <div className="funnel-label label-b">Calls, forms &amp; estimates enter</div>
             <div className="funnel-shape">
-              <div className="lead-stream"><i /><i /><i /><i /><i /></div>
+              <FunnelParticles />
               <span className="leak-point leak-one">MISSED CALL <b>↓</b></span>
               <span className="leak-point leak-two">COLD ESTIMATE <b>↓</b></span>
               <span className="leak-point leak-three">NO FOLLOW-UP <b>↓</b></span>
